@@ -39,3 +39,5 @@ RUN ls -la && \
     ls -la node_modules && \
     npm list gulp
 
+RUN npm start
+
