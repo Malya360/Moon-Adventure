@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: moon-adventure-app
+    ports:
+      - "3100:3000"  # Expose port 3000 on the host machine
+    environment:
+      - NODE_ENV=development
+    command: npm start
+
+
+
