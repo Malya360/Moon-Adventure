@@ -43,4 +43,4 @@ RUN ls -la && \
 RUN npm install -g serve
 
 # Serve the index.html file using serve
-CMD ["serve", "-s", "index.html"]
+CMD ["serve", "-s", "."]
