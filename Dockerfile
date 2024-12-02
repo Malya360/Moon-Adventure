@@ -42,5 +42,7 @@ RUN ls -la && \
 # Install serve globally
 RUN npm install -g serve
 
+EXPOSE 3000
+# Build the application
 # Serve the index.html file using serve
 CMD ["serve", "-s", ".", "-l", "3000"]
