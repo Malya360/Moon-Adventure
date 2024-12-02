@@ -39,5 +39,8 @@ RUN ls -la && \
     ls -la node_modules && \
     npm list gulp
 
-CMD [ "npm", "start" ]
+# Install serve globally
+RUN npm install -g serve
 
+# Serve the index.html file using serve
+CMD ["serve", "-s", "index.html"]
