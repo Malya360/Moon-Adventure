@@ -18690,7 +18690,7 @@ iframe {
 }
 
 .font-cursive {
-  font-family: "Volkhov", "DM Serif Display", cursive;
+  font-family: "Volkhov", "DM Serif Display", cursive ;
 }
 
 /*-----------------------------------------------
@@ -19504,8 +19504,9 @@ iframe {
 .hero-title:before {
   content: '';
   position: absolute;
-  right: 0.9375rem;
-  top: 2.5rem;
+  right: 1.9375rem;
+  left: 0rem;
+  top: 12rem !important;
   width: 20rem;
   height: 0.8125rem;
   background-image: url(../img/hero/shape.svg);
@@ -19548,6 +19549,19 @@ iframe {
   border-radius: 1rem; /* Keeps rounded corners */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Adds a soft shadow for aesthetic */
 }
+
+
+.hero1{
+  width: 100%; /* Ensure the image takes full width of its container */
+  height: 30rem; /* Maintain the aspect ratio */
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+  object-fit: contain; /* This ensures the image won't be stretched */
+  border-radius: 1rem; /* Keeps rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Adds a soft shadow for aesthetic */
+}
+
+
 
 /* Medium screens (tablets and small desktops) */
 @media (min-width: 768px) and (max-width: 991.98px) {

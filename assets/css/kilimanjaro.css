@@ -1,0 +1,59 @@
+/* body {
+   
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  } */
+  .trip-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .trip-card {
+    background-color: #e4d8c6;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .trip-card:hover {
+    transform: translateY(-5px);
+
+  }
+  .trip-image {
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .trip-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+  }
+  .trip-price {
+    background-color: #b85956;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  .trip-btn {
+    background-color: #465b2d;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+  @media (max-width: 768px) {
+    .trip-image {
+      max-height: 200px;
+    }
+  }

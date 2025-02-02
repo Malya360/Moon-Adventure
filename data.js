@@ -4,6 +4,7 @@
 
 // Our Core DESTINATIONS
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 export const destinationsData = [
   {
     imgSrc: 'assets/img/dest/dest1.jpg',
@@ -32,7 +33,10 @@ export const destinationsData = [
 
 //OUR CORE SERVICES 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 export const servicesData = [
+    
   {
     imgSrc: 'assets/img/category/icon1.jpg',
     imgWidth: 150,
@@ -62,10 +66,16 @@ export const servicesData = [
 
 
 
+//jhgfrydhm 
+
+
 
 
 // BOOKING STEPS 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 export const stepsData = [
   {
     bgColor: 'bg-primary',
@@ -89,8 +99,10 @@ export const stepsData = [
 
 
 
+
 // UPCOMING TRIP COMPONENT 
 ////////////////////////////////////////////////////////////////////////////////////////////
+
 export const tripData = {
   tripTitle: "Trip To Serengeti",
   tripDate: "14-29 June | Special Package",
